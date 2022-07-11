@@ -1,0 +1,8 @@
+sudo docker-compose up -d
+sudo docker-compose down
+
+docker exec -it shop_app bash
+
+sudo chmod 777 -R storage/
+
+\\wsl$
